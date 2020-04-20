@@ -1,6 +1,6 @@
 import Transaction, { TransactionType } from '../models/Transaction';
 import CreateTransactionDTO from '../dto/CreateTransactionDTO';
-import Balance from '../dto/BalanceDTO';
+import Balance from '../interfaces/BalanceInterface';
 import ListTransactionsDTO from '../dto/ListTransactionsDTO';
 
 class TransactionsRepository {

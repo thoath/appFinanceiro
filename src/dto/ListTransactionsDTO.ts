@@ -1,5 +1,5 @@
 import Transaction from '../models/Transaction';
-import Balance from './BalanceDTO';
+import Balance from '../interfaces/BalanceInterface';
 
 export default class ListTransactionsDTO {
   transactions: Array<Transaction>;
